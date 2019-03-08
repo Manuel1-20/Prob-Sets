@@ -1,0 +1,70 @@
+#include<iostream>
+#include<conio.h>
+#include<iomanip>
+using namespace std;
+int main()
+{
+	float numofboxtixsold;
+	float numofsidelinetixsold;
+	float numofpremiumtixsold;
+	float numofgatixsold;
+	cout << "       Price     Number of Tickets Sold     Total"<<endl;
+	cout << "Game 1"<<endl;
+	cout << "       $250                ";
+	cin >>numofboxtixsold;
+	cout << "                                             " <<250.00*numofboxtixsold <<endl;                                   
+	cout << "       $100                ";
+	cin >>numofsidelinetixsold;
+	cout << "                                             " <<100.00*numofsidelinetixsold <<endl;                                   
+	cout << "       $50                 ";
+	cin >>numofpremiumtixsold;
+	cout << "                                             " <<50.00*numofpremiumtixsold <<endl;                                   
+	cout << "       $25                 ";
+	cin >>numofgatixsold;
+	cout << "                                             " <<25.00*numofgatixsold <<endl;
+	cout << "                             Total for the game" << (250.00*numofboxtixsold)+(100.00*numofsidelinetixsold)+(50.00*numofpremiumtixsold)+(25.00*numofgatixsold) <<endl;
+	cout << "Game 2"<<endl;
+	cout << "       $250                ";
+	cin >>numofboxtixsold;
+	cout << "                                             " <<250.00*numofboxtixsold <<endl;                                   
+	cout << "       $100                ";
+	cin >>numofsidelinetixsold;
+	cout << "                                             " <<100.00*numofsidelinetixsold <<endl;                                   
+	cout << "       $50                 ";
+	cin >>numofpremiumtixsold;
+	cout << "                                             " <<50.00*numofpremiumtixsold <<endl;                                   
+	cout << "       $25                 ";
+	cin >>numofgatixsold;
+	cout << "                                             " <<25.00*numofgatixsold <<endl;       
+		cout << "                             Total for the game" << (250.00*numofboxtixsold)+(100.00*numofsidelinetixsold)+(50.00*numofpremiumtixsold)+(25.00*numofgatixsold) <<endl;
+	cout << "Game 3"<<endl;
+	cout << "       $250                ";
+	cin >>numofboxtixsold;
+	cout << "                                             " <<250.00*numofboxtixsold <<endl;                                   
+	cout << "       $100                ";
+	cin >>numofsidelinetixsold;
+	cout << "                                             " <<100.00*numofsidelinetixsold <<endl;                                   
+	cout << "       $50                 ";
+	cin >>numofpremiumtixsold;
+	cout << "                                             " <<50.00*numofpremiumtixsold <<endl;                                   
+	cout << "       $25                 ";
+	cin >>numofgatixsold;
+	cout << "                                             " <<25.00*numofgatixsold <<endl;
+		cout << "                             Total for the game" << (250.00*numofboxtixsold)+(100.00*numofsidelinetixsold)+(50.00*numofpremiumtixsold)+(25.00*numofgatixsold) <<endl;
+	cout << "Game 4"<<endl;
+	cout << "       $250                ";
+	cin >>numofboxtixsold;
+	cout << "                                             " <<250.00*numofboxtixsold <<endl;                                   
+	cout << "       $100                ";
+	cin >>numofsidelinetixsold;
+	cout << "                                             " <<100.00*numofsidelinetixsold <<endl;                                   
+	cout << "       $50                 ";
+	cin >>numofpremiumtixsold;
+	cout << "                                             " <<50.00*numofpremiumtixsold <<endl;                                   
+	cout << "       $25                 ";
+	cin >>numofgatixsold;
+	cout << "                                             " <<25.00*numofgatixsold <<endl; 
+		cout << "                             Total for the game" << (250.00*numofboxtixsold)+(100.00*numofsidelinetixsold)+(50.00*numofpremiumtixsold)+(25.00*numofgatixsold) <<endl;
+	_getch();
+	return 0();
+}
