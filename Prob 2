@@ -1,0 +1,18 @@
+#include<iostream>
+#include<conio.h>
+#include <iomanip>
+using namespace std;
+int main()
+{
+	float mass;
+	float density;
+	float volume;
+	cout << "Enter mass" << endl;
+	cin >> mass;
+	cout << "Enter density" << endl;
+	cin >> density;
+	volume = mass/density;
+	cout << "volume =" << setprecision(3) << volume << endl;
+	_getch();
+	return 0;
+}
